@@ -1,1 +1,40 @@
-404: Not Found
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Autor: Mihail Turcanu
+    Módulo: Lenguajes de Marcas y Sistemas de Gestión de Información
+    U.T.3 - Actividad RSS
+    Creación y validación de un canal RSS
+-->
+
+<rss version="2.0">
+    <channel>
+
+        <title>Tech News</title>
+        <link>https://www.technews.com</link>
+        <description>Las últimas novedades tecnológicas</description>
+
+        <item>
+            <title>Nueva actualización de software</title>
+            <link>https://www.technews.com/nueva-actualizacion</link>
+            <description>Se ha lanzado una nueva versión del software ABC con mejora de seguridad.</description>
+            <pubDate>Fri, 16 Oct 2026 21:37:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Nuevos avances en inteligencia artificial</title>
+            <link>https://www.technews.com/avances-inteligencia-artificial</link>
+            <description>Un nuevo sistema de inteligencia artificial mejora el análisis de datos y la automatización de tareas.</description>
+            <pubDate>Fri, 16 Oct 2026 20:15:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Nueva generación de procesadores para portátiles</title>
+            <link>https://www.technews.com/nuevos-procesadores-portatiles</link>
+            <description>Los nuevos procesadores prometen mejorar el rendimiento y reducir el consumo energético en equipos portátiles.</description>
+            <pubDate>Fri, 16 Oct 2026 18:40:00 +0100</pubDate>
+        </item>
+
+
+    </channel>
+</rss>
